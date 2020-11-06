@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Lutfen Formu Eksiksiz Doldurunuz.</h1>
+    <hr />
+    <h3>Hesap Bilgileri</h3>
+    <form action="">
+      <p>
+        Kullanici Adi:
+        <input
+          type="text"
+          name="kulad"
+          id="kulad"
+          placeholder="Kullanici adi giriniz."
+          required
+        />
+      </p>
+      <p>
+        Eposta:
+        <input
+          type="text"
+          name="Eposta"
+          id="eposta"
+          placeholder="e-posta giriniz."
+          required
+        />
+      </p>
+      <p>
+        Parola:
+        <input
+          type="password"
+          name="Parola"
+          placeholder="parola giriniz."
+          required
+        />
+      </p>
+      <h3>Kisisel Bilgileriniz</h3>
+      <p>Ad: <input type="text" /></p>
+      <p>Soyad: <input type="text" /></p>
+      <p>
+        Sehir:
+        <select name="sehir" id="sehir">
+          <option value="">Istanbul</option>
+          <option value="">Izmir</option>
+          <option value="">Kocaeli</option>
+        </select>
+      </p>
+      <p>
+        Cinsiyet: <br />
+        Erkek<input type="radio" name="cins" />Kadin
+        <input type="radio" name="cins" />
+      </p>
+      <p>
+        Hobileriniz: Sinema<input type="checkbox" name="hobi" /> Gezmek
+        <input type="checkbox" name="hobi" /> spor
+        <input type="checkbox" name="hobi" /> kitap
+        <input type="checkbox" name="hobi" />
+      </p>
+      <input type="submit" />
+    </form>
+  </body>
+</html>
