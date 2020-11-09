@@ -1,0 +1,76 @@
+p::first-line{
+    font-weight: bold;
+    color: brown;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+ul li:first-child{
+    background-color: red;
+}
+p.about::first-line{
+    color: green;
+}
+p::first-letter{
+    font-size: 40px;
+}
+p::after{
+    content: "";
+    display: block;
+    padding: 10px;
+    background-color: indigo;
+}
+
+
+ul li {
+    padding: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+ul li:first-child{
+    background-color: red;
+}
+
+ul li:last-child{
+    background-color: royalblue;
+}
+ul li:nth-of-type(even){
+    border: 2px solid green;
+}
+ul li:nth-of-type(odd){
+    border: 2px solid firebrick;
+}
+
+a{
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    width: 80px;
+    border: 1px solid brown;
+    margin-bottom: 10px;
+}
+
+a:link{
+    color: darkblue;
+}
+
+a:visited{
+    color: gold;
+}
+
+a:hover{
+    color: lime;
+    background-color: black;
+}
+
+a:active{
+ color: yellow;
+}
+span{
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+}
+div:hover span{
+    display: inline;
+}
