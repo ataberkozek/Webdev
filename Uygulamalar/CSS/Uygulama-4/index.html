@@ -1,49 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        th{
-            color: white;
-            background-color: rgb(24, 170, 219);
-            padding: 10px;
-            width: 600px;
-        }
+      table{
+          width: 100%;
+      }
+      th {
+        color: white;
+        background-color: rgb(24, 170, 219);
+        padding: 10px;
+        text-align: left;
+      }
+      tr:nth-of-type(odd) {
+        background-color: white;
+      }
+      tr:nth-of-type(even) {
+        background-color: whitesmoke;
+      }
+      td {
+        display: flexbox;
+        padding: 10px;
+      }
+      tr:hover {
+        background-color: rgb(184, 179, 179);
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <table>
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Description</th>
-                <th>Price</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Product 1</td>
-                <td>Lorem ipsum dolor sit amet.</td>
-                <td>$10</td>
-            </tr>
-            <tr>
-                <td>Product 2</td>
-                <td>Lorem ipsum dolor sit amet.</td>
-                <td>$10</td>
-            </tr>
-            <tr>
-                <td>Product 3</td>
-                <td>Lorem ipsum dolor sit amet.</td>
-                <td>$10</td>
-            </tr>
-            <tr>
-                <td>Product 4</td>
-                <td>Lorem ipsum dolor sit amet.</td>
-                <td>$10</td>
-            </tr>
-        </tbody>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Product 1</td>
+          <td>Lorem ipsum dolor sit amet.</td>
+          <td>$10</td>
+        </tr>
+        <tr>
+          <td>Product 2</td>
+          <td>Lorem ipsum dolor sit amet.</td>
+          <td>$10</td>
+        </tr>
+        <tr>
+          <td>Product 3</td>
+          <td>Lorem ipsum dolor sit amet.</td>
+          <td>$10</td>
+        </tr>
+        <tr>
+          <td>Product 4</td>
+          <td>Lorem ipsum dolor sit amet.</td>
+          <td>$10</td>
+        </tr>
+      </tbody>
     </table>
-</body>
+  </body>
 </html>
